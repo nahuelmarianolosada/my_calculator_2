@@ -19,6 +19,10 @@ function sin_x() {
  var num = document.getElementById("n1");
  num.value = Math.sin(num.value, 3);
 }
+function inverse() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, -1);
+}
 </script>
 </head>
 <body>
@@ -30,6 +34,7 @@ function sin_x() {
  <button onclick="cube()"> x^3 </button>
  <button onclick="cuadrant()"> x^4 </button>
  <button onclick="sin_x()"> sin(x) </button>
+ <button onclick="inverse()"> 1/x </button>
  </p>
 </body>
 </html>
